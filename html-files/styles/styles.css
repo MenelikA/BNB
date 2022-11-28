@@ -1,0 +1,235 @@
+@media (min-width: 1000px) {
+    #managerPg{
+        max-width: 800px;
+    }
+    .container{
+        max-width: 800px;
+    }
+    #pend-container{
+        max-width: 600px;
+    }
+    #prop_listings{
+        max-width: 700px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    background-color: #dce9f4;
+}
+
+h1 {
+    background-color: #3a6383;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-weight:900;
+    font-size: 30px;
+    padding: 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+p {
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#login-signup, #edit-prop{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    margin-top: 15px;
+    max-width: 520px;
+    margin: 0 auto 70px;
+    padding: 50px 24px 40px;
+    background-color: white;
+}
+.form-control, .form-outline input, #add-property input{
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-outline label, #add-property label{
+    text-align: left;
+    width: 100%;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #1b1a4a;
+}
+#login-form button, .form-outline button, #sign-up-form button, #add-property button{
+    border-radius: 8px !important;
+    font-size: 14px;
+    background-color: #980f0f;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 14px 24px;
+    font-weight: 600;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d70466bd;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ff385c54;
+}
+#login-form button:hover{
+    border: none;
+    color: white;
+    background-color: #980f0f !important;
+}
+.submit-btn-last, #sign-up-form button{
+    background-color: #1C1B4A !important;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+}
+.form-control-2{
+    margin-bottom: 0;
+}
+.submit-btn-last:hover{
+    background-color: #1C1B4A;
+    border: none;
+}
+#single-listing {
+    border: solid black 2px;
+    border-radius: 25px;
+    background-color: #d0d1d2;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+#login-signup h3, .man-dash h3, #prop_listings h3, #pending-req h3{
+    color: #1C1B4A;
+    font-weight: bold;
+    margin: 0 20px 20px 20px;
+}
+
+#pending-req {
+    border-radius: 20px;
+    border: solid black 2px;
+    height: auto;
+    background-color: #d0d1d2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.man-dash, #prop_listings, #pending-req, #sign-up-form, #single-listing, #add-property{
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    padding: 50px 24px 40px;
+    background-color: white;
+    border: none;
+}
+#prop_listings, #sign-up-form, #add-property, #single-listing{
+    margin-bottom: 70px;
+}
+.man-dash-end{
+    padding: 20px;
+    margin-bottom: 70px;
+}
+.man-dash-end h3{
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.img-list {
+    width: 100px;
+    height: 100px;
+}
+
+.listing {
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+
+.requester {
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.top-buffer { margin-top:200px; }
+
+h2#login-msg, .login-msg, #sign-up > h3, #addListing > h3, .top-title {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: #3a6383 !important;
+    padding: 30px;
+    background-color: transparent !important;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+#find-rental {
+    border: solid black 2px;
+    height: 50px;
+    width: 200px;
+}
+
+.log-out-btn {
+    float: right;
+    margin-top: -50px;
+    margin-right: 40px;
+    padding: 5px 15px;
+    border: none !important;
+    background-color: #1c1b4a;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+form{
+    text-align: center;
+}
+#managerPg > form > button, form > button.rentDashBtn, #find-rental{
+    width: calc(100% + 20px);
+    background-color: #1c1b4a !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+    margin: 70px -10px 20px !important;
+    display: block;
+    padding: 14px 25px !important;
+}
+#find-rental{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 100%;
+}
+form > button.rentDashBtn{
+    max-width: 700px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

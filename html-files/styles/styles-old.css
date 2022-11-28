@@ -1,0 +1,121 @@
+@media (min-width: 1000px) {
+    #managerPg{
+        max-width: 800px;
+    }
+    .container{
+        max-width: 800px;
+    }
+    #pend-container{
+        max-width: 600px;
+    }
+    #prop_listings{
+        max-width: 700px;
+    }
+}
+
+h1 {
+    background-color: #1C1B4A;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:900;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+p {
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#login-signup {
+    border: solid black 2px;
+    background-color: #1C1B4A;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+#single-listing {
+    border: solid black 2px;
+    border-radius: 25px;
+    background-color: #d0d1d2;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+#login-signup h3{
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#pending-req {
+    border-radius: 20px;
+    border: solid black 2px;
+    height: auto;
+    background-color: #d0d1d2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.man-dash {
+    border-radius: 20px;
+    border: solid black 2px;
+    height: auto;
+    background-color: #d0d1d2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.img-list {
+    width: 100px;
+    height: 100px;
+}
+
+.listing {
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+main#prop_listings{
+    background-color: #e6e6e6;
+    border: solid black 2px;
+    border-radius: 25px;
+}
+
+.requester {
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.top-buffer { margin-top:200px; }
+
+h2#login-msg {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    font-size: xxx-large;
+    color: #1C1B4A
+}
+
+.btn {
+    font-weight: bold;
+}
+
+#find-rental {
+    border: solid black 2px;
+    height: 50px;
+    width: 200px;
+}
+
+.log-out-btn {
+    float: right;
+    margin-top: -70px;
+    margin-right: 40px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"
+        defer></script>
+    <script src="../js/single_listing.js" defer></script>
+    <title>Property Name</title>
+</head>
+
+<body>
+    <h1>C1BNB</h1>
+    <main id="single-listing" class="container text-center">
+        <h3 id="prop-name"></h3>
+        <div class="row" style="height:300px;">
+            <div class="col"></div>
+            <div class="col text-center">
+                <img id="single_image" src="" width="400px" height="300px">
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="address"></p>
+            </div>
+            <div class="col">
+                <p id="price"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="description"></p>
+            </div>
+        </div>
+        <div class="row">
+            <p id="manager">Property Manager: John Smith</p>
+        </div>
+        <form>
+            <div class="row">
+                <div class="form-outline">
+                    <button id="request-button" class="btn btn-success mb-4" type="submit" value="Request"
+                        onclick="">Request Stay</button>
+                    <button formaction="./property_listings.html" class="btn btn-light border-dark mb-2">Return To
+                        Listings</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

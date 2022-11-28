@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous" defer></script>
+    <script src="../js/manager_dashboard.js" defer></script>
+    <title>Manager Dashboard</title>
+</head>
+<body>
+    <h1>C1BNB</h1>
+    <form action="./login.html" >
+        <button class="btn btn-light border border-dark btn-block log-out-btn">Log Out</button>
+    </form>
+    <main class = "container text-center" id="managerPg">
+        <form action="./add_property.html">
+            <button class ="btn btn-light btn-block mb-2" style="border: black 2px solid;">Add New Property</button>
+        </form>
+        <div class="row">
+            <section class="man-dash">
+                <h3>Pending Requests</h3>
+                <ul class="requests" id="pend-requests">
+                    <li style="background-color: #1C1B4A; color: white;" class="requester">
+                        <div class="row">
+                            <div class="col-3 my-auto" id="req-property-name">
+                                <p>Property Name</p>
+                            </div>
+                            <div class="col-3 my-auto" id="renter-name">
+                                <p>Renter</p>
+                            </div>
+                            <div class ="col-3 my-auto" id="approveBtn">
+                                <p>Approve Request</p>
+                            </div>
+                            <div class = "col-3 my-auto" id="denyBtn">
+                                <p>Deny Request</p>
+                            </div>
+                        </div>            
+                    </li>  
+                </ul>
+            </section>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <section class="man-dash man-dash-end">
+                <h3>Current Properties</h3>
+                <ul class="listings" id="property-list"></ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

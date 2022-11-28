@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"
+        defer></script>
+    <script src="../js/add_property.js" defer></script>
+    <title>Add Property</title>
+</head>
+<body>
+    <h1>C1BNB</h1>
+    <main class="container text-center">
+        <section id="addListing">
+            <h3>Add New Property</h3>
+            <form id="add-property">
+                <div class="form-outline">
+                    <label for="name">Property Name:</label>
+                    <input class="mb-2" type="text" name="name" id="name"/>
+                </div>
+                <div>
+                    <div>
+                        <label for="prop-address">Property Address:</label>
+                    </div>
+                    <div>
+                        <input class="mb-4" type="text" name="street" id="prop-street" placeholder="Street"/>
+                    </div>
+                    <div>
+                        <input class="mb-4" type="text" name="city" id="prop-city" placeholder="City"/>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input class="mb-4" type="text" name="state" id="prop-state" placeholder="State"/>
+                    </div>
+                    <div>
+                        <input class="mb-2" type="text" name="zip" id="prop-zip" placeholder="Zip"/>
+                    </div>
+                </div>
+                <div class="form-outline mb-2">
+                    <label for="prop-description">Property details:</label>
+                    <input type="text" name="description" id="prop-description"/>
+                </div>
+                <div class="form-outline mb-4">
+                    <label for="prop-price">Price ($/Night):</label>
+                    <input type="text" name="price" id="prop-price"/>
+                </div>
+                <div>
+                    <button class="btn btn-success btn-block mb-4 submit-btn-last" type="submit" onclick="addProperty(event)" name="addProp" value="Add Property">Add Property</button>
+                    <button class="btn btn-danger btn-block mb-4" formaction="./manager_dashboard.html">Cancel</button>
+                </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
